@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import styled from 'styled-components';
 
-export const Airi = () => {
+const Airi = () => {
 
   const [airi, setAiri] = useState(["あいり！！"]);
   const [isShow, setIsShow] = useState(false);
@@ -29,6 +29,7 @@ export const Airi = () => {
     </>
   );
 }
+export default Airi;
 
 const WhiteText = styled.span`
   color: #fff;

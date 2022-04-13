@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components';
-import { Airi } from './components/Airi';
+import Airi from './components/Airi';
 
 export default function Home() {
   return (
