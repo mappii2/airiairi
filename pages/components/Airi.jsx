@@ -11,7 +11,7 @@ export const Airi = () => {
     let newArr = airi;
     newArr.push("あいり！！");
     setAiri(newArr);
-  }, [isShow]);
+  }, [airi, isShow]);
 
   useEffect(() => {
     let index = 0, num = 99999;
